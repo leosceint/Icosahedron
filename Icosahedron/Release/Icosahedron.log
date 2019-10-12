@@ -1,0 +1,27 @@
+﻿  main.cpp
+main.cpp(41): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+main.cpp(42): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+main.cpp(46): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+main.cpp(48): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+main.cpp(49): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+main.cpp(114): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+main.cpp(115): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+main.cpp(116): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+main.cpp(117): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+main.cpp(163): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+main.cpp(200): warning C4244: аргумент: преобразование "int" в "GLfloat", возможна потеря данных
+main.cpp(309): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+main.cpp(310): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+main.cpp(318): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+main.cpp(319): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+main.cpp(327): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+main.cpp(328): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+main.cpp(364): warning C4305: +=: усечение из "double" в "float"
+main.cpp(365): warning C4305: -=: усечение из "double" в "float"
+  Создание кода
+d:\tasks\dev_cpp\oldcppprojects\icosahedron\icosahedron\main.cpp(103): error C4789: буфер "VGR1" размером 20 байт будет переполнен; 30 будет записано начиная с позиции 0
+d:\tasks\dev_cpp\oldcppprojects\icosahedron\icosahedron\main.cpp(103): error C4789: буфер "VGR2" размером 20 байт будет переполнен; 30 будет записано начиная с позиции 0
+d:\tasks\dev_cpp\oldcppprojects\icosahedron\icosahedron\main.cpp(103): error C4789: буфер "VGR3" размером 20 байт будет переполнен; 30 будет записано начиная с позиции 0
+d:\tasks\dev_cpp\oldcppprojects\icosahedron\icosahedron\main.cpp(103): error C4789: буфер "VGR5" размером 20 байт будет переполнен; 30 будет записано начиная с позиции 0
+  All 32 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+LINK : fatal error LNK1257: не удалось создать код
