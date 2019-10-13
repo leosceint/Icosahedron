@@ -96,14 +96,25 @@ void PETranslate_OrthoXZ(wIc (&wIci),pIc (&pIci), int c, float koef)
 	}
 }
 //Функция инициализация начальной видимости граней икосаэдра (все видимые)
-void InitVisible(bool *pVGR, bool *pVRB)
+void InitVisible(bool *pVGR, size_t s_VGR, bool *pVRB, size_t s_VRB)
 {
-	for (size_t i=0,j=0;i<20,j<30;++i,++j)
-	{ 
-		pVGR[i]=0;
-		pVRB[i]=0; 
+	for (size_t k = 0, i = 0, j = 0; ; k++)
+	{
+		if (i < s_VGR)
+		{
+			pVGR[i++] = 0;
+		}
+		if (j < s_VRB)
+		{
+			pVRB[j++] = 0;
+		}
+		if (i >= s_VGR && j >= s_VRB)
+		{
+			break;
+		}
 	}
 }
+
 //Определение видимости граней
 void ChangeVisibleSides(pIc (&pIci), bool *pVGR)
 {
@@ -288,7 +299,7 @@ void Display()
 	PETranslate_OrthoYZ(wIc1,pIc1,0,OrthoK);PETranslate_OrthoXZ(wIc2,pIc2,1,OrthoK);PETranslate_OrthoXY(wIc3,pIc3,2,OrthoK);
 	EWTranslate(wIc4,eIc4,Cam1); PETranslate_Central(eIc4,pIc4,3);
 	//Инициализация видимости
-	InitVisible(VGR1,VRB1); InitVisible(VGR2,VRB2); InitVisible(VGR3,VRB3); InitVisible(VGR5,VRB5);
+	InitVisible(VGR1, 20, VRB1, 30); InitVisible(VGR2, 20, VRB2, 30); InitVisible(VGR3, 20, VRB3, 30); InitVisible(VGR5,20, VRB5, 30);
 	//Установка видимости
 	ChangeVisibleSides(pIc1,VGR1); ChangeVisibleEdges(VGR1,VRB1); ChangeVisibleSides(pIc2,VGR2); ChangeVisibleEdges(VGR2,VRB2);
 	ChangeVisibleSides(pIc3,VGR3); ChangeVisibleEdges(VGR3,VRB3); ChangeVisibleSides(pIc4,VGR5); ChangeVisibleEdges(VGR5,VRB5);
