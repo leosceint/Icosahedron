@@ -1,10 +1,23 @@
 //Компьютерная графика. Курсовая работа
 //Построение икосаэдра и отображение его в 3-х видах и 2- проекциях
-#include <Windows.h>
-#include <GL\GL.H>
-#include <GL\GLU.H>
+
 #include <GL\glut.h>
 #include <cmath>
+#include <iostream>
+
+void DetectOLGVersion()
+{
+	int major, minor;
+	//glGetIntegerv(GL_MAJOR_VERSION, &major);
+	//glGetIntegerv(GL_MINOR_VERSION, &minor);
+	std::cout << "\n\nOpenGL information:"
+		<< "\n " << (const char*)glGetString(GL_RENDERER)
+		<< "\n " << (const char*)glGetString(GL_VENDOR)
+		<< "\n " << (const char*)glGetString(GL_VERSION);
+		//<< "\n " << (const char*)glGetString(GL_SHADING_LANGUAGE_VERSION)
+		//<< "\n " << major << "." << minor;
+}
+
 //Массивы видимости
 bool VGR1[20],VGR2[20],VGR3[20],VGR5[20],/*граней*/VRB1[30],VRB2[30],VRB3[30],VRB5[30];//и ребер; 0-видно, 1-не видно
 //Массивы общего описания
@@ -294,6 +307,7 @@ namespace MyModes
 //
 void Display()
 {	
+	DetectOLGVersion();
 	glClear(GL_COLOR_BUFFER_BIT);
 	//Транслирование
 	PETranslate_OrthoYZ(wIc1,pIc1,0,OrthoK);PETranslate_OrthoXZ(wIc2,pIc2,1,OrthoK);PETranslate_OrthoXY(wIc3,pIc3,2,OrthoK);

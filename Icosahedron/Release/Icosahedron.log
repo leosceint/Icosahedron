@@ -1,24 +1,26 @@
 ﻿  main.cpp
-main.cpp(41): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-main.cpp(42): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-main.cpp(46): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-main.cpp(48): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-main.cpp(49): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-main.cpp(125): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
-main.cpp(126): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
-main.cpp(127): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
-main.cpp(128): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
-main.cpp(174): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
-main.cpp(211): warning C4244: аргумент: преобразование "int" в "GLfloat", возможна потеря данных
-main.cpp(320): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-main.cpp(321): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-main.cpp(329): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-main.cpp(330): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-main.cpp(338): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-main.cpp(339): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-main.cpp(375): warning C4305: +=: усечение из "double" в "float"
-main.cpp(376): warning C4305: -=: усечение из "double" в "float"
+d:\tasks\dev_cpp\oldcppprojects\icosahedron\icosahedron\main.cpp(10): warning C4101: minor: неиспользованная локальная переменная
+d:\tasks\dev_cpp\oldcppprojects\icosahedron\icosahedron\main.cpp(10): warning C4101: major: неиспользованная локальная переменная
+d:\tasks\dev_cpp\oldcppprojects\icosahedron\icosahedron\main.cpp(54): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+d:\tasks\dev_cpp\oldcppprojects\icosahedron\icosahedron\main.cpp(55): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+d:\tasks\dev_cpp\oldcppprojects\icosahedron\icosahedron\main.cpp(59): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+d:\tasks\dev_cpp\oldcppprojects\icosahedron\icosahedron\main.cpp(61): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+d:\tasks\dev_cpp\oldcppprojects\icosahedron\icosahedron\main.cpp(62): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+d:\tasks\dev_cpp\oldcppprojects\icosahedron\icosahedron\main.cpp(138): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+d:\tasks\dev_cpp\oldcppprojects\icosahedron\icosahedron\main.cpp(139): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+d:\tasks\dev_cpp\oldcppprojects\icosahedron\icosahedron\main.cpp(140): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+d:\tasks\dev_cpp\oldcppprojects\icosahedron\icosahedron\main.cpp(141): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+d:\tasks\dev_cpp\oldcppprojects\icosahedron\icosahedron\main.cpp(187): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+d:\tasks\dev_cpp\oldcppprojects\icosahedron\icosahedron\main.cpp(224): warning C4244: аргумент: преобразование "int" в "GLfloat", возможна потеря данных
+d:\tasks\dev_cpp\oldcppprojects\icosahedron\icosahedron\main.cpp(334): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+d:\tasks\dev_cpp\oldcppprojects\icosahedron\icosahedron\main.cpp(335): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+d:\tasks\dev_cpp\oldcppprojects\icosahedron\icosahedron\main.cpp(343): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+d:\tasks\dev_cpp\oldcppprojects\icosahedron\icosahedron\main.cpp(344): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+d:\tasks\dev_cpp\oldcppprojects\icosahedron\icosahedron\main.cpp(352): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+d:\tasks\dev_cpp\oldcppprojects\icosahedron\icosahedron\main.cpp(353): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+d:\tasks\dev_cpp\oldcppprojects\icosahedron\icosahedron\main.cpp(389): warning C4305: +=: усечение из "double" в "float"
+d:\tasks\dev_cpp\oldcppprojects\icosahedron\icosahedron\main.cpp(390): warning C4305: -=: усечение из "double" в "float"
   Создание кода
-  All 32 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  All 42 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Создание кода завершено
   Icosahedron.vcxproj -> D:\Tasks\DEV_CPP\OldCppProjects\Icosahedron\Release\Icosahedron.exe
